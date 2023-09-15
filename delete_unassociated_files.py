@@ -46,7 +46,7 @@ def run():
     # 生成备份文件目录
     # 当文件不存在时，才创建该文件夹。
     if not os.path.exists(back_dir):
-        os.mkdir(back_dir)
+        os.makedirs(back_dir)
 
     for i in range(len(files)):
         # 如zotero.sqlite的path中不包括文件
