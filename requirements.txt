@@ -1,0 +1,3 @@
+pandas~=2.1.0
+pathlib2~=2.3.7.post1
+click~=8.1.7

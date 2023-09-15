@@ -9,6 +9,12 @@
 
 # 使用方法
 
+- 安装依赖
+
+```bash
+pip3 install -r requirements.txt
+```
+
 - 删除残留的PDF文件
 
 ```bash
